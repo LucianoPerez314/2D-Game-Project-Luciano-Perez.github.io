@@ -1,6 +1,13 @@
-html {
-    background-color: black;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  flex-direction: column;
+  background-color: black;
 }
+
+
 
 h1{
     position: relative;
@@ -31,5 +38,6 @@ iframe {
     margin: auto;
     display: flex;
     align-items: center;
+    box-shadow: 10px 10px 5px grey;
 }
 
